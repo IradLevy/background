@@ -1,0 +1,116 @@
+.personal-info-card {
+    grid-area: personal-info-card;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: start;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 33%;
+    margin: 1.2rem 0;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    background: radial-gradient(circle, rgba(238, 192, 174, 1) 10%, rgba(153, 153, 158, 1) 100%);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.person-name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.person-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #415179;
+}
+
+p {
+    margin: 0;
+}
+
+.id-country {
+    color: #a0a8bb;
+    font-size: 0.8rem;
+    margin: 7px 0;
+}
+
+.check-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: 0.5px solid #e4e9f3;
+    border-radius: 15px;
+    width: 75%;
+    color: #415179;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
+    padding: 1rem 1.5rem;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border: 0.5px solid #e4e9f3;
+    border-radius: 15px;
+    width: 85%;
+    color: #415179;
+    margin: 1rem 0;
+}
+
+.icons-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 1rem;
+}
+
+.icons-info {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 80%;
+}
+
+.icons-info img {
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+.line-between {
+    border-bottom: 0.5px solid #e4e9f3;
+    border-bottom-width: thin;
+    width: 100%;
+}
+
+
+.nickname-container {
+    padding-left: 50px;
+    direction: rtl;
+}
+
+.nickname-education {
+    padding-right: 0.5rem;
+}
+
+.nickname-education-container {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}

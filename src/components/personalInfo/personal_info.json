@@ -1,0 +1,23 @@
+{
+  "person": {
+    "id": 1,
+    "name": "ברוס ויין",
+    "description": "גיבור על",
+    "profile_pic": "batman.jpeg",
+    "nicknames": ["ברוסי", "TheBat", "اسم"],
+    "education": ["אוניברסיטת לונדון למדעי הקישקוש"],
+    "Job": "Founder & CEO",
+    "Company": "RedCamel Solutions Ltd",
+    "id_number": "023393633",
+    "country": "ישראל",
+    "report_purpose": "שותפות עסקית",
+    "focus": "",
+    "mail_addresses": ["batman1@gmail.com", "bruce@wayne.com"],
+    "phone_numbers": ["+972-52-5555555", "+972-54-3739399", "+972-58-4747399"],
+    "linkedInProfiles": [],
+    "facebookProfiles": ["facebook_url"],
+    "instagramProfiles": ["instagram_url"],
+    "youtubeProfiles": ["youtube_url"],
+    "twitterProfiles": ["twitter_url"]
+  }
+}

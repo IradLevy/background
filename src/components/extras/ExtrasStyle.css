@@ -1,0 +1,33 @@
+.extras-card {
+    grid-area: extras;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.9rem;
+    margin: 2rem 0;
+}
+
+.extras-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #415179;
+    direction: rtl;
+    margin-bottom: 1rem;
+}
+
+.extras-text {
+    text-align: center;
+}
+
+.extras-logo {
+    margin: 1rem 0;
+}
+
+.extras-buttons-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  

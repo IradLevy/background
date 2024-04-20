@@ -1,0 +1,10 @@
+.body-container {
+    grid-area: body;
+    padding-inline: 5rem; 
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-areas: 
+    'gallery-card summary-card personal-info-card'
+    '. . personal-info-card'
+    '. . extras';
+}

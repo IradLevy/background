@@ -1,0 +1,16 @@
+.icons-info {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icons-info img {
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+.icons-info a {
+    text-decoration: none;
+    color: #415179;
+}

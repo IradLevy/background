@@ -1,0 +1,60 @@
+.gallery-title {
+  float: right;
+  font-weight: 500;
+  font-size: 1em;
+  color: #415179;
+}
+
+.gallery-button {
+  bottom: 4%;
+  right: 5%;
+  background: none;
+  border: none;
+  font-size: 1.1em;
+  color: #415179;
+  cursor: pointer;
+}
+
+.galley-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.3rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Apply border radius to each corner */
+.gallery img:nth-child(1) {
+  border-top-right-radius: 10px; /* Adjust the radius as needed */
+}
+
+.gallery img:nth-child(3) {
+  border-top-left-radius: 10px; /* Adjust the radius as needed */
+}
+
+.gallery img:nth-child(7) {
+  border-bottom-right-radius: 10px; /* Adjust the radius as needed */
+}
+
+.gallery img:nth-child(9) {
+  border-bottom-left-radius: 10px; /* Adjust the radius as needed */
+}
+
+.gallery-card { 
+  grid-area: gallery-card;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  direction: rtl;
+  align-self: start;
+ }
