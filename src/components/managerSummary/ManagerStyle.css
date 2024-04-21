@@ -35,6 +35,10 @@
   direction: rtl;
 }
 
+.findings-text {
+  font-weight: 400;
+}
+
 .findings-list {
   color: #415179;
   font-weight: 500;

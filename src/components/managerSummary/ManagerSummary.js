@@ -22,7 +22,7 @@ export default function ManagerSummary() {
         <div className='summary-card card'>
             <div className="summary-title-container">
                 <h2>סיכום מנהלים</h2>
-                <p>המערכת סרקה {sum.dataProvidersNum} מקורות מידע שונים בתחומים של {scannedInfo}</p>
+                <p className="findings-text">המערכת סרקה {sum.dataProvidersNum} מקורות מידע שונים בתחומים של {scannedInfo}</p>
                 <p className="findings-details">להלן הפירוט של הממצאים העיקריים:</p>
             </div>
             <div className="findings-card">
