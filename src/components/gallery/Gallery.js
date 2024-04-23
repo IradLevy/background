@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import photos from './photos.json'
 import { useState } from 'react'
 import './GalleryStyle.css'
